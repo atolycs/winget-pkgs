@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: aome510.spotify-player
+PackageVersion: 0.20.3
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+  - RelativeFilePath: spotify-player.exe 
+    PortableCommandAlias: spotify-player
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/aome510/spotify-player/releases/download/v0.20.3/spotify_player-x86_64-pc-windows-msvc.zip
+ManifestType: installer
+ManifestVersion: 1.6.0
