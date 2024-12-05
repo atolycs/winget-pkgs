@@ -1,0 +1,19 @@
+Id: aome510.spotify-player
+Version: 0.20.3
+Name: spotify-player
+Publisher: aome510
+License: MIT
+LicenseUrl: https://github.com/aome510/spotify-player
+AppMoniker: spotify-player
+NestedInstallerType: portable
+InstallerType: zip
+NestedInstallerFiles:
+  - RelativeFilePath: spotify_player.exe
+Dependencies:
+  PackageDependencies:
+    - PackageIdentifier: Microsoft.VCRedist.2015+.x64
+Installers:
+  - Arch: x86
+    Url: https://github.com/aome510/spotify-player/releases/download/v0.20.3/spotify_player-x86_64-pc-windows-msvc.zip
+
+
