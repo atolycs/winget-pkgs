@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
 
 PackageIdentifier: aome510.spotify-player
-PackageVersion: 0.20.3
+PackageVersion: 0.20.4
 PackageLocale: en-US
 ManifestType: defaultLocale
 PackageName: spotify-player
